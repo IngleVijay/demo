@@ -1,0 +1,62 @@
+/* 
+ Theme Name : wp_daily
+ Theme URI : www.practice.com
+ Author : Vijay Ingle
+ Description : This is my basic wordpress theme
+ Tags : dailypractice, wordpress_theme,dailyincome
+ License : GNU General Public License
+ version:1.0
+*/
+
+body{
+color:#333333;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 16px;
+}
+
+header.header-area{
+ background-color: lightblue;
+ color: black;
+ margin: 0 auto;
+ padding: 15px;
+ text-align:center;
+ width:70%;
+}
+
+header.header-area h1 a{
+text-decoration: none;
+color: black;
+font-size: 28px;
+}
+
+header.header-area h3{
+ color: black;
+ font-size: 20px;
+}
+#main{
+display: grid;
+grid-template-columns: 70% 30%;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#main.post-area.post-meta ul{
+    list-style-type: none;
+}
+footer{
+    background: #424040;
+    color: white;
+    height: 60px;
+    margin: 0 auto;
+    width: 70%;
+}
+footer p{
+ padding: 15px 5px;
+ text-align: center;
+}
+
+footer a{
+ color: white;
+
+}
